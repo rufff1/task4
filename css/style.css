@@ -1,0 +1,167 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+a{
+    text-decoration: none;
+}
+
+.head .logo a{
+    color: #ffc800;
+    float: left;
+    font-weight: 700;
+    font-size: 20px;
+    width: 60%;
+    font-family:'Courier New', Courier, monospace;
+}
+
+.head .nav-bar a{
+    float:right;
+    padding-left: 20px;
+    color: rgb(214, 204, 204);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    
+}
+.head{
+    
+    background-color: #212529;
+    overflow: auto;
+  padding: 20px 40px;
+    
+}
+.hd-text{
+    text-align: center;
+    background-image: url(https://startbootstrap.github.io/startbootstrap-agency/assets/img/header-bg.jpg);
+padding-top:10rem;
+padding-bottom: 20rem;
+background-position: center;
+background-size: cover;
+
+}
+.hd-text h2{
+    font-style: italic;
+    color: aliceblue;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+   font-size: 40px;
+   font-weight: 500;
+   padding-bottom: 30px;
+}
+
+.hd-text h1{
+    color:aliceblue;
+    font-size: 70px;
+    padding-bottom: 60px;
+}
+
+.hd-text .btn-a{
+    color: aliceblue;
+    background-color: #ffc800;
+    padding: 25px 47px;
+    border-radius: 5px;
+    font-weight: 700;
+    font-size: 17px;
+}
+
+.services .ser-text{
+    text-align: center;
+    padding-top: 80px;
+  }
+.services .ser-text h1{
+    font-size:37px;
+    font-weight: bolder;
+    padding-bottom: 10px;
+}
+.services .ser-text p{
+    font-style: italic;
+    color: rgb(126, 123, 123);
+    font-size: 18px;
+    padding-bottom: 40px;
+}
+
+
+
+.ser-body .box{
+    float: left;
+    margin: 0 13%;
+    width: 7%; 
+}
+
+
+.ser-body .box img{
+    width: 100%;
+   border-radius: 100%;
+   border: 1px solid gray;
+   background-color: #FFC800;
+   
+}
+
+.ser-body .body-text{
+    width: 100%;
+  
+}
+.body-text .text1{
+   
+    float: left;
+    width: 30%;
+    text-align: center;
+    margin-left: 40px;
+}
+.body-text h2{
+    padding-top: 15px;
+    padding-bottom: 20px;
+}
+.body-text p{
+    font-style: italic;
+    color: rgb(126, 123, 123);
+    font-size: 17px;
+    line-height: 1.4;
+    padding-bottom: 8rem;
+}
+
+.img-box .head-txt{
+    text-align: center;
+    padding-top: 40px;
+}
+.img-box .head-txt h1{
+    font-size:37px;
+    font-weight: bolder;
+    padding-bottom: 10px;
+}
+.img-box .head-txt p{
+    font-style: italic;
+    color: rgb(126, 123, 123);
+    font-size: 18px;
+    padding-bottom: 40px;
+}
+
+.img-box .boxes{
+    width: 100%;
+}
+
+.img-box .boxes .box{
+    float: left;
+    margin: 0 5%;
+    width: 23%
+    
+}
+
+.img-box .boxes .box img{
+    width: 100%;
+    padding-bottom: 18px;
+    
+}
+.box .tex h4{
+padding-bottom: 10px;
+font-size: 25px;
+text-align: center;
+}
+.box .tex p{
+    padding-bottom: 28px;
+    font-style: italic;
+    color: rgb(126, 123, 123);
+    font-size: 16px;
+    text-align: center;
+}
+
